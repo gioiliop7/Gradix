@@ -5,36 +5,42 @@
 			'title' => 'Εξάμηνο A',
 			'courses' => array(
 				array(
+					'type' => 'ΜΓΥ-Υ',
 					'code' => 'a1',
 					'title' => 'Γραμμική Άλγεβρα',
 					'ects' => 4,
 					'autofillId' => 'ΓΡΑΜΜΙΚΗ ΑΛΓΕΒΡΑ'
 				),
 				array(
+					'type' => 'ΜΓΥ-Υ',
 					'code' => 'a2',
 					'title' => 'Μαθηματικά Ι',
 					'ects' => 7,
 					'autofillId' => 'ΜΑΘΗΜΑΤΙΚΑ Ι'
 				),
 				array(
+					'type' => 'ΜΓΥ-Υ',
 					'code' => 'a3',
 					'title' => 'Ηλεκτρονική Φυσική',
 					'ects' => 5,
 					'autofillId' => 'ΗΛΕΚΤΡΟΝΙΚΗ ΦΥΣΙΚΗ'
 				),
 				array(
+					'type' => 'ΜΓΥ-Υ',
 					'code' => 'a4',
 					'title' => 'Φυσική',
 					'ects' => 5,
 					'autofillId' => 'ΦΥΣΙΚΗ'
 				),
 				array(
+					'type' => 'ΜΓΥ-Υ',
 					'code' => 'a5',
 					'title' => 'Προγραμματισμός Ι',
 					'ects' => 6,
 					'autofillId' => 'ΠΡΟΓΡΑΜΜΑΤΙΣΜΟΣ Ι'
 				),
 				array(
+					'type' => 'ΜΓΥ-Υ',
 					'code' => 'a6',
 					'title' => 'Εισαγωγή στα Συστήματα Υπολογιστών',
 					'ects' => 3,
@@ -46,36 +52,42 @@
 			'title' => 'Εξάμηνο B',
 			'courses' => array(
 				array(
+					'type' => 'ΜΓΥ-Υ',
 					'code' => 'b1',
 					'title' => 'Μαθηματικά ΙΙ',
 					'ects' => 6,
 					'autofillId' => 'ΜΑΘΗΜΑΤΙΚΑ ΙΙ'
 				),
 				array(
+					'type' => 'ΜΓΥ-Υ',
 					'code' => 'b2',
 					'title' => 'Διακριτά Μαθηματικά',
 					'ects' => 3,
 					'autofillId' => 'ΔΙΑΚΡΙΤΑ ΜΑΘΗΜΑΤΙΚΑ'
 				),
 				array(
+					'type' => 'ΜΕΥ-Υ',
 					'code' => 'b3',
 					'title' => 'Αρχιτεκτονική Υπολογιστών Ι',
 					'ects' => 5,
 					'autofillId' => 'ΑΡΧΙΤΕΚΤΟΝΙΚΗ ΥΠΟΛΟΓΙΣΤΩΝ Ι'
 				),
 				array(
+					'type' => 'ΜΕ-Υ',
 					'code' => 'b4',
 					'title' => 'Ψηφιακά Συστήματα Ι',
 					'ects' => 5,
 					'autofillId' => 'ΨΗΦΙΑΚΑ ΣΥΣΤΗΜΑΤΑ Ι'
 				),
 				array(
+					'type' => 'ΜΕΥ-Υ',
 					'code' => 'b5',
 					'title' => 'Προγραμματισμός ΙΙ',
 					'ects' => 6,
 					'autofillId' => 'ΠΡΟΓΡΑΜΜΑΤΙΣΜΟΣ ΙΙ'
 				),
 				array(
+					'type' => 'ΜΕ-Υ',
 					'code' => 'b6',
 					'title' => 'Δομές Δεδομένων',
 					'ects' => 5,
@@ -87,36 +99,42 @@
 			'title' => 'Εξάμηνο Γ',
 			'courses' => array(
 				array(
+					'type' => 'ΜΓΥ-Υ',
 					'code' => 'c1',
 					'title' => 'Αρχιτεκτονική Υπολογιστών ΙΙ',
 					'ects' => 5,
 					'autofillId' => 'ΑΡΧΙΤΕΚΤΟΝΙΚΗ ΥΠΟΛΟΓΙΣΤΩΝ ΙΙ'
 				),
 				array(
+					'type' => 'ΜΓΥ-Υ',
 					'code' => 'c2',
 					'title' => 'Πιθανότητες-Στατιστική',
 					'ects' => 5,
 					'autofillId' => 'ΠΙΘΑΝΟΤΗΤΕΣ-ΣΤΑΤΙΣΤΙΚΗ'
 				),
 				array(
+					'type' => 'ΜΕ-Υ',
 					'code' => 'c3',
 					'title' => 'Αγγλική Ορολογία Πληροφορικής',
 					'ects' => 3,
 					'autofillId' => 'ΑΓΓΛΙΚΗ ΟΡΟΛΟΓΙΑ ΠΛΗΡΟΦΟΡΙΚΗΣ'
 				),
 				array(
+					'type' => 'ΜΕ-Υ',
 					'code' => 'c4',
 					'title' => 'Ψηφιακά Συστήματα ΙΙ',
 					'ects' => 6,
 					'autofillId' => 'ΨΗΦΙΑΚΑ ΣΥΣΤΗΜΑΤΑ ΙΙ'
 				),
 				array(
+					'type' => 'ΜΕΥ-Υ',
 					'code' => 'c5',
 					'title' => 'Σχεδιασμός και Ανάλυση Αλγορίθμων',
 					'ects' => 6,
 					'autofillId' => 'ΣΧΕΔΙΑΣΜΟΣ ΚΑΙ ΑΝΑΛΥΣΗ ΑΛΓΟΡΙΘΜΩΝ'
 				),
 				array(
+					'type' => 'ΜΕ-Υ',
 					'code' => 'c6',
 					'title' => 'Προγραμματισμός ΙΙΙ',
 					'ects' => 5,
@@ -128,36 +146,42 @@
 			'title' => 'Εξάμηνο Δ',
 			'courses' => array(
 				array(
+					'type' => 'ΜΕ-Υ',
 					'code' => 'd1',
 					'title' => 'Λειτουργικά Συστήματα',
 					'ects' => 6,
 					'autofillId' => 'ΛΕΙΤΟΥΡΓΙΚΑ ΣΥΣΤΗΜΑΤΑ'
 				),
 				array(
+					'type' => 'ΜΕΥ-Υ',
 					'code' => 'd2',
 					'title' => 'Γραμμικά Συστήματα',
 					'ects' => 4,
 					'autofillId' => 'ΓΡΑΜΜΙΚΑ ΣΥΣΤΗΜΑΤΑ-ΓΡΑΜΜΙΚΟΙ ΜΕΤΑΣΧΗΜΑΤΙΣΜΟΙ'
 				),
 				array(
+					'type' => 'ΜΕ-Υ',
 					'code' => 'd3',
 					'title' => 'Βάσεις Δεδομένων',
 					'ects' => 6,
 					'autofillId' => 'ΒΑΣΕΙΣ ΔΕΔΟΜΕΝΩΝ'
 				),
 				array(
+					'type' => 'ΜΕ-Υ',
 					'code' => 'd4',
 					'title' => 'Δίκτυα Δεδομένων Ι',
 					'ects' => 6,
 					'autofillId' => 'ΔΙΚΤΥΑ ΔΕΔΟΜΕΝΩΝ Ι'
 				),
 				array(
+					'type' => 'ΔΟΝΑ-Υ',
 					'code' => 'd5',
 					'title' => 'Εισαγωγή στη Φιλοσοφία',
 					'ects' => 3,
 					'autofillId' => 'ΕΙΣΑΓΩΓΗ ΣΤΗ ΦΙΛΟΣΟΦΙΑ'
 				),
 				array(
+					'type' => 'ΔΟΝΑ-Υ',
 					'code' => 'd6',
 					'title' => 'Επιχειρισιακή Έρευνα',
 					'ects' => 5,
@@ -169,30 +193,35 @@
 			'title' => 'Εξάμηνο Ε',
 			'courses' => array(
 				array(
+					'type' => 'ΜΕΥ-Υ',
 					'code' => 'e1',
 					'title' => 'Τεχνητή Νοημοσύνη',
 					'ects' => 5,
 					'autofillId' => 'ΤΕΧΝΗΤΗ ΝΟΗΜΟΣΥΝΗ'
 				),
 				array(
+					'type' => 'ΜΕ-Υ',
 					'code' => 'e2',
 					'title' => 'Μικροεπεξεργαστές',
 					'ects' => 6,
 					'autofillId' => 'ΜΙΚΡΟΕΠΕΞΕΡΓΑΣΤΕΣ-ΜΙΚΡΟΕΛΕΓΚΤΕΣ'
 				),
 				array(
+					'type' => 'ΜΕ-Υ',
 					'code' => 'e3',
 					'title' => 'Τεχνολογία Λογισμικού',
 					'ects' => 6,
 					'autofillId' => 'ΤΕΧΝΟΛΟΓΙΑ ΛΟΓΙΣΜΙΚΟΥ'
 				),
 				array(
+					'type' => 'ΜΕΥ-Υ',
 					'code' => 'e4',
 					'title' => 'Ψ.Ε.Σ.',
 					'ects' => 6,
 					'autofillId' => 'ΨΗΦΙΑΚΗ ΕΠΕΞΕΡΓΑΣΙΑ ΣΗΜΑΤΟΣ'
 				),
 				array(
+					'type' => 'ΜΕ-Υ',
 					'code' => 'e5',
 					'title' => 'Δίκτυα Δεδομένων ΙΙ',
 					'ects' => 7,
@@ -204,32 +233,43 @@
 			'title' => 'Εξάμηνο ΣΤ',
 			'courses' => array(
 				array(
+					'type' => 'ΜΕΥ-Υ',
 					'code' => 'f1',
 					'title' => 'Κατανεμημένα Συστήματα',
 					'ects' => 6,
 					'autofillId' => 'ΚΑΤΑΝΕΜΗΜΕΝΑ ΣΥΣΤΗΜΑΤΑ'
 				),
 				array(
+					'type' => 'ΔΟΝΑ-Υ',
 					'code' => 'f2',
 					'title' => 'Ασφάλεια και προστασία Δεδομένων',
 					'ects' => 6,
 					'autofillId' => 'ΑΣΦΑΛΕΙΑ ΚΑΙ ΠΡΟΣΤΑΣΙΑ ΔΕΔΟΜΕΝΩΝ'
 				),
 				array(
+					'type' => 'ΜΕ-Υ',
 					'code' => 'f3',
 					'title' => 'Τηλεπικοινωνίες',
 					'ects' => 6,
 					'autofillId' => 'ΤΗΛΕΠΙΚΟΙΝΩΝΙΕΣ'
 				),
 				array(
+					'type' => 'ΜΕΥ-Υ',
 					'code' => 'f4',
 					'title' => 'Σ.Α.Ε.',
 					'ects' => 6,
 					'autofillId' => 'ΣΑΕ'
 				),
 				array(
+					'type' => 'ΜΕΥ-ΕΥ',
 					'code' => 'f5',
-					'title' => 'Αυτόματα ή Ολοκληρωμένα Κυκλώματα',
+					'title' => 'Αυτόματα και Τυπικές Γλώσσες',
+					'ects' => 6
+				),
+				array(
+					'type' => 'ΜΕΥ-ΕΥ',
+					'code' => 'f6',
+					'title' => 'Ολοκληρωμένα Κυκλώματα Μεγάλης Κλίμακας',
 					'ects' => 6
 				)
 			)		
@@ -238,32 +278,43 @@
 			'title' => 'Εξάμηνο Ζ',
 			'courses' => array(
 				array(
+					'type' => 'ΜΕ-Υ',
 					'code' => 'g1',
 					'title' => 'Σχεδίαση Δικτύων',
 					'ects' => 6,
 					'autofillId' => 'ΣΧΕΔΙΑΣΗ ΔΙΚΤΥΩΝ ΥΠΟΛΟΓΙΣΤΩΝ'
 				),
 				array(
+					'type' => 'ΔΟΝΑ-Υ',
 					'code' => 'g2',
 					'title' => 'Ηλεκτρονικό Εμπόριο',
 					'ects' => 6,
 					'autofillId' => 'ΗΛΕΚΤΡΟΝΙΚΟ ΕΜΠΟΡΙΟ & ΤΕΧΝΟΛΟΓΙΕΣ ΔΙΑΔΙΚΤΥΟΥ'
 				),
 				array(
+					'type' => 'ΜΕΥ-Υ',
 					'code' => 'g3',
 					'title' => 'Ψ.Ε.Ε.',
 					'ects' => 6,
 					'autofillId' => 'ΨΗΦΙΑΚΗ ΕΠΕΞΕΡΓΑΣΙΑ ΕΙΚΟΝΑΣ'
 				),
 				array(
+					'type' => 'ΜΕΥ-Υ',
 					'code' => 'g4',
 					'title' => 'Ειδικά Θέματα Κ.Σ.',
 					'ects' => 6,
 					'autofillId' => 'ΕΙΔΙΚΑ ΘΕΜΑΤΑ ΚΑΤΑΝΕΜΗΜΕΝΩΝ ΣΥΣΤΗΜΑΤΩΝ'
 				),
 				array(
+					'type' => 'ΜΕΥ-ΕΥ',
 					'code' => 'g5',
-					'title' => 'Πληροφοριακά Συστήματα ή Πληροφορική στην Εκπαίδευση',
+					'title' => 'Πληροφοριακά Συστήματα',
+					'ects' => 6
+				),
+				array(
+					'type' => 'ΜΕΥ-ΕΥ',
+					'code' => 'g6',
+					'title' => 'Πληροφορική στην Εκπαίδευση',
 					'ects' => 6
 				)
 			),
@@ -272,6 +323,7 @@
 			'title' => 'Εξάμηνο Η',
 			'courses' => array(
 				array(
+					'type' => null,
 					'code' => 'h1',
 					'title' => 'Πτυχιακή',
 					'ects' => 20,
@@ -431,6 +483,7 @@
 								</tr>
 								<tr>
 									<th class="text-center">Μάθημα</th>
+									<th class="text-center">Είδος</th>
 									<th class="text-center">ECTS</th>
 									<th class="text-center">Βαθμός</th>
 								</tr>
@@ -446,6 +499,9 @@
 										<tr>
 											<td>
 												<?php echo $course['title']; ?>
+											</td>
+											<td width="100px">
+												<?php echo $course['type']; ?>
 											</td>
 											<td width="20px">
 												<?php echo $course['ects']; ?>
