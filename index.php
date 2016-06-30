@@ -71,7 +71,7 @@
 									<?php echo $grade['totalGrades']; ?>
 									\over 
 									<?php echo $grade['totalEcts']; ?>
-								} = <?php echo $grade['grade']; ?>
+								} \approx <?php echo $grade['grade']; ?>
 							$$
 						</p>	
 					<?php endif; ?>
