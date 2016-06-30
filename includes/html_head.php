@@ -13,14 +13,14 @@
 <meta property="og:url" content="<?php echo $url ?>" />
 <meta property="fb:app_id" content="1469392136712174" />
 <meta property="og:locale" content="el_GR" />
-<meta property="og:image" content="http://i.imgur.com/Q6Db25O.jpg" />
+<meta property="og:image" content="http://i.imgur.com/y5a2v1W.jpg" />
 <meta property="og:image:width" content="1920" />
 <meta property="og:image:height" content="1080" />
 <!-- Twitter Meta -->
 <meta name="twitter:site" content="@PandorianGR" />
 <meta name="twitter:card" content="A JP experiment" />
 <meta name="twitter:url" content="<?php echo $url ?>" />
-<meta name="twitter:image" content="http://i.imgur.com/Q6Db25O.jpg" />
+<meta name="twitter:image" content="http://i.imgur.com/y5a2v1W.jpg" />
 
 <meta name="description" 
 	content="
