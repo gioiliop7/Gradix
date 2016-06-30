@@ -50,7 +50,8 @@
 
 <script type="text/x-mathjax-config">
 	MathJax.Hub.Config({
-		tex2jax: {inlineMath: [["$","$"],["\\(","\\)"]]}
+		tex2jax: {inlineMath: [["$","$"],["\\(","\\)"]]},
+		CommonHTML: { linebreaks: { automatic: true } }
 	});
 </script>
 <script type="text/javascript" async

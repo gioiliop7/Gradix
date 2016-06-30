@@ -42,6 +42,39 @@
 					 	έτσι μια ιδέα για το πως θα είναι η τελική σας
 					 	βαθμολογία.
 					</p>
+					<?php if($_GET): ?>
+						<h2>
+							Ο βαθμός πτυχίου σας (για τα μαθήματα που εισάγατε) 
+							υπολογίζεται σε:	
+						</h2>
+							$$
+								\sum_{i=1}^{n} δ_i β_i = <?php echo $grade['num']; ?> = 
+								<?php echo $grade['totalGrades']; ?>
+							$$
+							$$	
+								\sum_{i=1}^{n} δ_i = <?php echo $grade['den']; ?> =
+								<?php echo $grade['totalEcts']; ?>
+							$$
+						<p>	
+							$$	
+								β ={
+									\sum_{i=1}^{n} δ_i β_i
+									\over
+									\sum_{i=1}^{n} δ_i
+								} =
+								{
+									δ_1 β_1 + δ_2 β_2 + ... + δ_n β_n 
+									\over 
+									δ_1 + δ_2 + ... + δ_n
+								} =
+								{
+									<?php echo $grade['totalGrades']; ?>
+									\over 
+									<?php echo $grade['totalEcts']; ?>
+								} = <?php echo $grade['grade']; ?>
+							$$
+						</p>	
+					<?php endif; ?>
 				</div>			 	
 			</div>
 			<div class="row">
