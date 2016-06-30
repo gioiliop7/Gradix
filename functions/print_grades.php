@@ -1,10 +1,16 @@
 <?php function print_grades($grades, $get){ ?>
 	<form method="GET">
 		<div class="row">
+			<div class="col-md-4 col-md-offset-8">
+				<input class="btn btn-success btn-lg btn-block" 
+					type="submit" value="Υπολογισμός">
+			</div>
+		</div>
+		<div class="row">
 			<table class="table table-bordered">
 				<thead>
 					<tr>
-						<th class="text-center">Μάθημα</th>
+						<th colspan="2" class="text-center">Μάθημα</th>
 						<th class="text-center">Είδος</th>
 						<th class="text-center">ECTS</th>
 						<th class="text-center">Βαθμός</th>
@@ -13,13 +19,16 @@
 				<tbody>
 					<?php foreach ($grades as $semester): ?>
 						<tr>
-							<th colspan="3" class="text-center">
+							<th colspan="5" class="text-center bg-primary">
 								<?php echo $semester['title']; ?>
 							</th>
 						</tr>
 						<?php foreach ($semester['courses'] as $course): ?>
-							<tr>
-								<td>
+							<tr class="<?php echo($course['type'] == 'ΜΕΥ-ΕΥ')?'bg-info':'' ?> " >
+								<?php if($course['type'] == 'ΜΕΥ-ΕΥ'): ?>
+									<td><b>ΕΠΙΛΟΓΗΣ</b></td>
+								<?php endif; ?>
+								<td colspan="<?php echo($course['type'] == 'ΜΕΥ-ΕΥ')?'':'2' ?>"">
 									<?php echo $course['title']; ?>
 								</td>
 								<td width="100px">
