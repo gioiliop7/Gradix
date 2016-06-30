@@ -84,6 +84,12 @@
 					- μια τις αντιστοιχίες. <strong>Kudos</strong> στον Σταύρο!
 				</p>
 				<p>
+					<video width="560" autoplay loop>
+						<source src="assets/mp4/howto.mp4" type="video/mp4">
+						Ο browser σας δεν υποστηρίζει MP4
+					</video>
+				</p>
+				<p>
 					Για να το κάνετε, πρέπει να πάτε στις 
 					<a href="https://e-gram.teilam.gr/unistudent/stud_CResults.asp">
 						Βαθμολογίες της Ηλεκτρονικής Γραμματείας
