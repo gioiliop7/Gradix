@@ -1,7 +1,10 @@
 <?php function print_grades($grades, $get){ ?>
 	<form method="GET">
 		<div class="row">
-			<div class="col-md-4 col-md-offset-8">
+			<div class="col-md-8">
+				<h2 id="dpt_label">Μηχανικών Πληροφορικής (ΠΠΣ)</h2>
+			</div>
+			<div class="col-md-4">
 				<input class="btn btn-success btn-lg btn-block" 
 					type="submit" value="Υπολογισμός">
 			</div>
