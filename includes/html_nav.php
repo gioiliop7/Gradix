@@ -33,6 +33,7 @@
         		</li>
      		 </ul>
       		<ul class="nav navbar-nav navbar-right">
+				<li><a href="http://appix.org">Appix</a></li>
 				<li>
 					<a href="" data-toggle="modal" data-target="#about">
 						About

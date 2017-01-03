@@ -1,5 +1,5 @@
 <?php
-	$url = "https://apps.johnprantalos.gr/teilam-grades";
+	$url = "http://gradix.appix.org";
 	$json = file_get_contents('tmimata/mixanikon_pliroforikis_pps.json');
 	$grades = json_decode($json, true);
 
@@ -12,8 +12,7 @@
 <html>
 	<head>
 		<?php require_once('includes/html_head.php'); ?>
-		<?php include('includes/ga.php'); ?>
-		<title>Teiste Grades - JP</title>
+		<title>Gradix: Υπολογισμός του Βαθμού Πτυχίου σας.</title>
 	</head>
 	<body>
 		<?php require_once('includes/html_nav.php'); ?>
@@ -29,7 +28,7 @@
 					Σπουδών καθώς επίσης και το ΠΣ των Ηλεκτρονικών Μηχανικών.
 				</div>
 				<div class="jumbotron">
-					<h1>Teiste Grades</h1>
+					<h1>Gradix</h1>
 					<p>
 						<a href="" data-toggle="modal" data-target="#about_calc">
 							Υπολογίστε
@@ -85,7 +84,7 @@
 			</div>
 			<div class="row text-center">
 				Διαθέσιμος ο Source Code στο
-				<a href="https://github.com/JohnPrantalos/teilam-grades">Github
+				<a href="https://github.com/DecisionSystemsGroup/Gradix">Github
 				</a>.
 			</div>
 		</div>
