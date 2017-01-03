@@ -1,0 +1,27 @@
+{
+  "name": "Gradix",
+  "homepage": "http://gradix.appix.org/",
+  "authors": [
+    "John Prantalos <johnprantalos@gmail.com>",
+    "Stavros Tsourlidakis <s.tsourlidakis@hotmail.com>"
+  ],
+  "description": "Υπολογισμός του Βαθμού Πτυχίου σας",
+  "main": "index.php",
+  "keywords": [
+    "john",
+    "prantalos",
+    "stavros",
+    "tsourlidakis",
+    "appix",
+    "gradix"
+  ],
+  "license": "Apache 2.0",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ]
+}
