@@ -1,6 +1,6 @@
 <meta charset="utf-8">
 <link
-	href="https://bootswatch.com/flatly/bootstrap.min.css"
+	href="bower_components/bootswatch-dist/css/bootstrap.min.css"
 	rel="stylesheet">
 <link href="assets/css/gradix.min.css" rel="stylesheet">
 <!-- Google Meta -->
