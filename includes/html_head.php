@@ -2,7 +2,7 @@
 <link
 	href="https://bootswatch.com/flatly/bootstrap.min.css"
 	rel="stylesheet">
-<link href="assets/css/style.css" rel="stylesheet">
+<link href="assets/css/gradix.min.css" rel="stylesheet">
 <!-- Google Meta -->
 <link rel="author" href="https://plus.google.com/+JohnPrantalos" />
 <link rel="publisher" href="https://plus.google.com/+JohnPrantalos" />
