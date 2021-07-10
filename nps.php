@@ -1,6 +1,6 @@
 <?php
 	$url = "http://gradix.appix.org";
-	$json = file_get_contents('tmimata/mixanikon_pliroforikis_pps.json');
+	$json = file_get_contents('tmimata/mixanikon_pliroforikis_nps.json');
 	$grades = json_decode($json, true);
 
 	if ($_GET) {
@@ -15,18 +15,9 @@
 		<title>Gradix v2: Υπολογισμός του Βαθμού Πτυχίου σας.</title>
 	</head>
 	<body>
-		<?php require_once('includes/html_nav.php'); ?>
+		<?php require_once('includes/html_nav_uth.php'); ?>
 		<div class="container">
 			<div class=row>
-				<div class="alert alert-danger alert-dismissible fade in" role="alert">
-					<button type="button" class="close" data-dismiss="alert" aria-label="Close">
-						<span aria-hidden="true">×</span>
-					</button>
-					<strong>Προσοχή!</strong> Προς το παρόν το script λειτουργεί
-					μόνο για τον Παλαιό Πρόγραμμα Σπουδών του τμήματος Μηχανικών
-					Πληροφορικής Τ.Ε. Σύντομα θα προστεθεί και το Νέο Πρόγραμμα
-					Σπουδών καθώς επίσης και το ΠΣ των Ηλεκτρονικών Μηχανικών.
-				</div>
 				<div class="jumbotron">
 					<h1>Gradix v2</h1>
 					<p>
@@ -79,7 +70,7 @@
 			<div class="row">
 				<?php
 					require('functions/print_grades.php');
-					print_grades($grades, $_GET);
+					print_grades_nps($grades, $_GET);
 				?>
 			</div>
 			<div class="row text-center">

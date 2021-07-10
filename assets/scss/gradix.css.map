@@ -1,0 +1,9 @@
+{
+    "version": 3,
+    "mappings": "AAAA,AAAA,aAAa,CAAC,GAAG,CAAA;EAChB,UAAU,EAAE,IAAI;EAChB,UAAU,EAAE,KAAK;CACjB",
+    "sources": [
+        "gradix.scss"
+    ],
+    "names": [],
+    "file": "gradix.css"
+}

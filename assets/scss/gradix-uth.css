@@ -1,0 +1,31 @@
+.navbar-uth, .bg-uth {
+  background: #5f021f;
+}
+
+.uth-logo {
+  width: 100%;
+  max-height: unset !important;
+  margin-top: unset !important;
+  max-width: 70px;
+}
+
+.containeruth {
+  height: 100px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.containeruth .navbar-brand {
+  margin-top: unset !important;
+}
+
+.navbaruth {
+  -ms-flex-item-align: center;
+      -ms-grid-row-align: center;
+      align-self: center;
+}
+/*# sourceMappingURL=gradix-uth.css.map */

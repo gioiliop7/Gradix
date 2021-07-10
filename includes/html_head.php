@@ -3,9 +3,15 @@
 	href="bower_components/bootswatch-dist/css/bootstrap.min.css"
 	rel="stylesheet">
 <link href="assets/css/gradix.min.css" rel="stylesheet">
+<link href="assets/scss/gradix.css" rel="stylesheet">
+<link href="assets/scss/gradix-uth.css" rel="stylesheet">
 <!-- Google Meta -->
 <link rel="author" href="https://plus.google.com/+JohnPrantalos" />
 <link rel="publisher" href="https://plus.google.com/+JohnPrantalos" />
+<script
+  src="https://code.jquery.com/jquery-3.6.0.js"
+  integrity="sha256-H+K7U5CnXl1h5ywQfKtSj8PCmoN9aaq30gDh27Xc0jk="
+  crossorigin="anonymous"></script>
 
 <!-- Facebook meta -->
 <meta property="og:site_name" content="Gradix"/>

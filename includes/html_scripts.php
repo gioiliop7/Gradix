@@ -28,3 +28,21 @@
 		$('#autofill').modal('hide');
 	}
 </script>
+
+<script>
+	jQuery( document ).ready(function() {
+		var ids = document.querySelectorAll('[data-id]');
+		jQuery( ids ).each(function() {
+			value = jQuery(this).attr("data-id");
+			if(value == 'software'){
+				jQuery('[data-id="software"]').addClass('bg-warning');
+			}
+			if(value == 'hardware'){
+				jQuery('[data-id="hardware"]').addClass('bg-danger');
+			}
+			if(value == 'networking'){
+				jQuery('[data-id="networking"]').addClass('bg-success');
+			}
+		});	
+});
+</script>
