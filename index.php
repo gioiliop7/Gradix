@@ -12,7 +12,7 @@
 <html>
 	<head>
 		<?php require_once('includes/html_head.php'); ?>
-		<title>Gradix: Υπολογισμός του Βαθμού Πτυχίου σας.</title>
+		<title>Gradix v2: Υπολογισμός του Βαθμού Πτυχίου σας.</title>
 	</head>
 	<body>
 		<?php require_once('includes/html_nav.php'); ?>
