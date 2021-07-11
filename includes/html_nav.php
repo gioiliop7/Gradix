@@ -33,7 +33,7 @@
         		</li>
      		 </ul>
       		<ul class="nav navbar-nav navbar-right">
-				<li><a href="http://appix.org">Appix</a></li>
+				<!-- <li><a href="http://appix.org">Appix</a></li> -->
 				<li>
 					<a href="" data-toggle="modal" data-target="#about">
 						About
@@ -43,33 +43,28 @@
 					<a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Σχετικοί Σύνδεσμοι <span class="caret"></span></a>
 					<ul class="dropdown-menu">
 						<li>
-							<a href="http://www.teiste.gr/">
-								Τ.Ε.Ι. Στερεάς Ελλάδας
+							<a target="_blank" href="https://www.uth.gr/">
+								Πανεπιστήμιο Θεσσαλίας
 							</a>
 						</li>
 						<li>
-							<a href="https://e-gram.teilam.gr/unistudent">
+							<a target="_blank" href="https://sis-web.uth.gr/">
 								Ηλεκτρονική Γραμματεία
 							</a>
 						</li>
 						<li>
-							<a href="http://eclass2.teilam.gr/">
+							<a target="_blank" href="https://eclass.uth.gr/">
 								e-Class
-							</a>
-						</li>
-						<li>
-							<a href="http://eclass.teiste.gr/">
-								e-Class (Νέο)
 							</a>
 						</li>
 						<li role="separator" class="divider"></li>
 						<li>
-							<a href="http://inf.teiste.gr/">
+							<a target="_blank" href="http://inf.teiste.gr/">
 								Τμήμα Μηχανικών Πληροφορικής
 							</a>
 						</li>
 						<li>
-							<a href="http://www.eln.teiste.gr/">
+							<a target="_blank" href="http://www.eln.teiste.gr/">
 								Τμήμα Ηλεκτρονικών Μηχανικών
 							</a>
 						</li>
