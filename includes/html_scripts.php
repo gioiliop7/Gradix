@@ -43,6 +43,11 @@
 			if(value == 'networking'){
 				jQuery('[data-id="networking"]').addClass('bg-success');
 			}
-		});	
+		});
+
+		$( "#clearform" ).click(function(e) {
+			e.preventDefault();
+			window.location.href="./nps.php";
+		});
 });
 </script>
