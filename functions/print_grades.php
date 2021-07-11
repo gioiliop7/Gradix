@@ -1,6 +1,6 @@
 <?php function print_grades($grades, $get){ ?>
 	<form method="GET">
-		<div class="row">
+		<div class="row headerrow">
 			<div class="col-md-8">
 				<h2 id="dpt_label">Μηχανικών Πληροφορικής (ΠΠΣ)</h2>
 			</div>
@@ -42,9 +42,10 @@
 								</td>
 								<td width="80px">
 									<input class="form-control input-sm" 
-										type="text" 
+										type="number" 
 										name="<?php echo $course['code']; ?>"
 										id="<?php echo $course['autofillId']; ?>"
+										step="0.01"
 										value="<?php
 											$code = $course['code'];
 											if (isset($get[$code])){
@@ -59,7 +60,7 @@
 				</tbody>
 			</table>
 		</div>
-		<div class="row">
+		<div class="row footerrow">
 			<div class="col-md-4 col-md-offset-8">
 				<input class="btn btn-success btn-lg btn-block" 
 					type="submit" value="Υπολογισμός">
@@ -71,13 +72,47 @@
 
 <?php function print_grades_nps($grades, $get){ ?>
 	<form method="GET">
-		<div class="row">
+		<div class="row headerrow">
 			<div class="col-md-8">
 				<h2 id="dpt_label">Μηχανικών Πληροφορικής (NΠΣ)</h2>
 			</div>
 			<div class="col-md-4">
-				<input class="btn btn-success btn-lg btn-block" 
+				<input class="btn btn-uth btn-lg btn-block" 
 					type="submit" value="Υπολογισμός">
+			</div>
+		</div>
+		<div class="container">
+			<div class="row rowinfo">
+				<div class="col-md-4 colinfo">
+					<div class="identities">
+						<p> Μηχανικοί Δικτύων </p>
+						<div class="square-md"></div>
+					</div>
+				</div>
+
+				<div class="col-md-4">
+					<div class="identities colinfo">
+						<p> Μηχανικοί Ηλεκτρονικών Υπολογιστών </p>
+						<div class="square-my"></div>
+					</div>
+				</div>
+
+				<div class="col-md-4">
+					<div class="identities colinfo">
+						<p> Μηχανικοί Λογισμικού </p>
+						<div class="square-ml"></div>
+					</div>
+				</div>
+			</div>
+			<hr>
+			<div class="row rowinfo2">
+				<div class="col-md-4">
+					<button type="button" id="clearform">Καθαρισμός Πεδίων </button>
+				</div>
+				<div class="col-md-8">
+					<p class="infotext">Υ = Υποχρεωτικό, ΕΥ = Επιλογής Υποχρεωτικό
+						ΜΓΥ = Μαθήματα Γενικής Υποδομής, ΜΕΥ = Μαθήματα Ειδικής Υποδομής, ΜΕ = Μαθήματα Ειδικότητας </p>
+				</div>
 			</div>
 		</div>
 		<div class="row">
@@ -113,9 +148,10 @@
 								</td>
 								<td width="80px">
 									<input class="form-control input-sm" 
-										type="text" 
+										type="number" 
 										name="<?php echo $course['code']; ?>"
 										id="<?php echo $course['autofillId']; ?>"
+										step="0.01"
 										value="<?php
 											$code = $course['code'];
 											if (isset($get[$code])){
@@ -130,9 +166,9 @@
 				</tbody>
 			</table>
 		</div>
-		<div class="row">
+		<div class="row footerrow">
 			<div class="col-md-4 col-md-offset-8">
-				<input class="btn btn-success btn-lg btn-block" 
+				<input class="btn btn-uth btn-lg btn-block" 
 					type="submit" value="Υπολογισμός">
 			</div>
 		</div>

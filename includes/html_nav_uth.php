@@ -7,7 +7,7 @@
 				<span class="icon-bar"></span>
 				<span class="icon-bar"></span>
 			</button>
-			<a class="navbar-brand" href="#">
+			<a class="navbar-brand" href="./nps.php">
 				<img class="uth-logo" src="assets/img/uth.png">
 			</a>
 		</div>
@@ -28,7 +28,7 @@
 					<ul class="dropdown-menu">
                         <li><a href="./index.php">Μηχανικών Πληροφορικής Τ.Ε. (ΠΠΣ)</a></li>
 						<li><a href="./nps.php">Μηχανικών Πληροφορικής Τ.Ε. (ΝΠΣ)</a></li>
-						<li><a href="#"><strike>Μηχανικών Ηλεκτρονικής Τ.Ε.</strike></a></li>
+						<li class="disabled"><a href="#"><strike>Μηχανικών Ηλεκτρονικής Τ.Ε.</strike></a></li>
      				</ul>
         		</li>
      		 </ul>

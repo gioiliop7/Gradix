@@ -2,10 +2,19 @@
 	$url = "http://gradix.appix.org";
 	$json = file_get_contents('tmimata/mixanikon_pliroforikis_pps.json');
 	$grades = json_decode($json, true);
+	error_reporting(0);
 
 	if ($_GET) {
 		require('functions/grade_calc.php');
-		$grade = grade_calc($grades, $_GET);
+		$grade = grade_calc($grades, $_GET);?>
+        <script>
+            var totalects = '<?php echo $grade['totalEcts'];?>'
+            if (totalects == 0){
+                alert('Οι συνολικές διδακτικές μονάδες που έχεις συμπληρώσει ισούνται με ' + totalects + ' οπότε πρόσθεσε τουλάχιστον έναν βαθμό που δεν θα είναι 0 για να δεις την βαθμολογία σου.');
+                window.location.href="./";
+            }      
+        </script>
+        <?php 
 	}
 ?>
 <!DOCTYPE html>
@@ -23,9 +32,8 @@
 						<span aria-hidden="true">×</span>
 					</button>
 					<strong>Προσοχή!</strong> Προς το παρόν το script λειτουργεί
-					μόνο για τον Παλαιό Πρόγραμμα Σπουδών του τμήματος Μηχανικών
-					Πληροφορικής Τ.Ε. Σύντομα θα προστεθεί και το Νέο Πρόγραμμα
-					Σπουδών καθώς επίσης και το ΠΣ των Ηλεκτρονικών Μηχανικών.
+					μόνο για το τμήμα Μηχανικών
+					Πληροφορικής Τ.Ε. Σύντομα θα προστεθεί και το ΠΣ των Ηλεκτρονικών Μηχανικών.
 				</div>
 				<div class="jumbotron">
 					<h1>Gradix v2</h1>
@@ -82,10 +90,8 @@
 					print_grades($grades, $_GET);
 				?>
 			</div>
-			<div class="row text-center">
-				Διαθέσιμος ο Source Code στο
-				<a href="https://github.com/DecisionSystemsGroup/Gradix">Github
-				</a>.
+			<div class="row footerrow text-center">Διαθέσιμος ο Source Code στο
+				<a  target="_blank" href="https://github.com/DecisionSystemsGroup/Gradix">Github</a>.
 			</div>
 		</div>
 		<?php require_once('includes/html_modals.php') ?>

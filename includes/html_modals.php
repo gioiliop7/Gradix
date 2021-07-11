@@ -31,12 +31,12 @@
 		<div class="modal-content">
 			<div class="modal-header">
 				<button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
-				<h4 class="modal-title" id="myModalLabel">About Teilam Grades</h4>
+				<h4 class="modal-title" id="myModalLabel">About Gradix</h4>
 			</div>
 			<div class="modal-body">
 				<p>
-					Το <a href="https://github.com/JohnPrantalos/teilam-grades">
-					teilam-grades</a> ξεκίνησε ως ένα απλό script για να μπορώ
+					Το <a target="_blank" href="https://github.com/JohnPrantalos/teilam-grades">
+					teilam-grades</a> aka Gradix ξεκίνησε ως ένα απλό script για να μπορώ
 					να βάζω βαθμολογίες που δεν είχαν περαστεί ακόμη ή για 
 					μαθήματα που δεν είχα περάσει και ήθελα να δώ πως θα
 					διαμορφωνόταν ο Βαθμός Πτυχίου μου αν έπερνα στο τάδε 5 και
@@ -45,23 +45,25 @@
 				<p>
 					Το script έφτασε σε ένα σημείο που είπα να το δημοσιέυσω με 
 					αποτέλεσμα να υπάρξουν κάποιες ωραίες ιδέες όπως το autofill
-					του <a href="https://github.com/stsourlidakis">
+					του <a target="_blank" href="https://github.com/stsourlidakis">
 					@stsourlidakis</a> και η επέκταση του script και για ΝΠΣ και
 					Ηλεκτρονικούς πέρα από το ΠΠΣ της Πληροφορικής.
 				</p>				
 				<p>
 					Ο κώδικας είναι διαθέσιμος στο 
-					<a href="https://github.com/JohnPrantalos/teilam-grades">
+					<a target="_blank" href="https://github.com/JohnPrantalos/teilam-grades">
 					Github</a> υπό άδεια 
 					<a href="http://www.apache.org/licenses/LICENSE-2.0">
 					Apache 2.0</a>.
 				</p>
 				<p>
 					Για ότι πρόβλημα/ιδέα έχετε, ανοίξτε ένα 
-					<a href="https://github.com/JohnPrantalos/teilam-grades/issues">
+					<a target="_blank" href="https://github.com/JohnPrantalos/teilam-grades/issues">
 					Github Issue</a> ή στείλτε e-mail στο 
 					johnprantalos[at]gmail.com.
-				</p>				
+				</p>
+				<p> Το καλοκαίρι του 2021 ο <a target="_blank" href="#">Γιώργος Ηλιόπουλος </a> δημιούργησε την <a href="#">
+					έκδοση για το Νέο Πρόγραμμα σπουδών </a> του παλιού ΤΕΙ και του τωρινού πανεπιστημίου όντας και αυτός απόφοιτος του τμήματος </p>
 			</div>
 			<div class="modal-footer">
 				<button type="button" class="btn btn-default" data-dismiss="modal">Κλείσιμο</button>

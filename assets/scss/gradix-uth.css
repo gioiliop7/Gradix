@@ -14,9 +14,9 @@
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
 }
 
 .containeruth .navbar-brand {
@@ -27,5 +27,101 @@
   -ms-flex-item-align: center;
       -ms-grid-row-align: center;
       align-self: center;
+}
+
+.footerrow, .headerrow {
+  margin-bottom: 40px;
+}
+
+.btn-uth {
+  background-color: #5f021f;
+  color: #fff;
+  -webkit-box-shadow: 10px 4px 15px -4px #000000;
+  box-shadow: 10px 4px 15px -4px #000000;
+}
+
+.square-ml {
+  height: 20px;
+  width: 20px;
+  background-color: #f39c12;
+  border: 1px solid transparent;
+  border-radius: 5px;
+}
+
+.square-my {
+  height: 20px;
+  width: 20px;
+  background-color: #e74c3c;
+  border: 1px solid transparent;
+  border-radius: 5px;
+}
+
+.square-md {
+  height: 20px;
+  width: 20px;
+  background-color: #18bc9c;
+  border: 1px solid transparent;
+  border-radius: 5px;
+}
+
+.identities {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  gap: 15px;
+  font-weight: bold;
+}
+
+.colinfo {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.rowinfo {
+  margin-bottom: 25px;
+}
+
+#clearform {
+  background-color: #5f021f;
+  color: #fff;
+  border: 1px solid transparent;
+  padding: 15px;
+  border-radius: 5px;
+  -webkit-transition: all ease 0.2s;
+  transition: all ease 0.2s;
+}
+
+#clearform:hover {
+  -webkit-box-shadow: 10px 4px 15px -4px #000000;
+          box-shadow: 10px 4px 15px -4px #000000;
+}
+
+.rowinfo2 {
+  text-align: center;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin-bottom: 35px;
+}
+
+.infotext {
+  font-weight: bold;
+}
+
+@media screen and (max-width: 991px) {
+  .containeruth {
+    width: 100%;
+  }
+  .infotext {
+    font-size: 13px;
+  }
 }
 /*# sourceMappingURL=gradix-uth.css.map */
